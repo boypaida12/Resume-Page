@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* * {
+	border: 2px solid red;
+} */
+body {
+	font-family: 'Poppins', sans-serif !important;
+}
+
+.carousel {
+	max-height: 100vh;
+}
+
+.carousel img {
+	filter: brightness(30%);
+	max-height: 100vh;
+}
+
+.navbar {
+	transition: all 0.4s;
+}
+
+.navbar a {
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: calc(0.1rem + 1.2vw) !important;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+	color: #1a6ae0 !important;
+}
+
+.navbar a.active {
+	color: #1a6ae0 !important;
+}
+
+.carousel-caption {
+	bottom: 190px !important;
+}
+
+.carousel-caption h1 {
+	font-size: calc(2.5rem + 1.2vw);
+}
+
+.blue {
+	color: rgb(34, 83, 175);
+	padding-inline: .5em;
+	border-radius: 15px;
+	position: relative;
+}
+
+.blue::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #e1e2e209;
+	border-radius: 1em;
+	backdrop-filter: blur(15px) ;
+	z-index: -1;
+}
+
+.navbar-scrolled {
+	opacity: 0;
+}
+
+.about-container p, .row-div p{
+	font-weight: 300;
+	line-height: 1.8;
+}
+
+.about-container p {
+	font-size: 1.1rem;
+	width: 75%;
+	margin: auto;
+}
+
+.bridge {
+	margin-top: 50px;
+}
+
+.project-row {
+	padding-bottom: 50px;
+	margin-bottom: 30px !important;
+}
+
+.row-div {
+	margin-bottom: 50px;
+}
+
+.btn-primary {
+	background-color: rgb(255, 255, 255) !important;
+	color: rgb(22, 81, 190) !important;
+	border-radius: 20px !important;
+	padding: 5px 35px !important;
+	transition: background-color 0.3s ease-in-out !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+	background-color: rgb(22, 81, 190) !important;
+	color: whitesmoke !important;
+}
+
+.btn-override {
+	width: 25% !important;
+}
+
+.project-gallery {
+	position: relative;
+}
+
+
+.monitor-ui {
+	position: relative !important;
+	background-color: rgba(20, 82, 163, 0.075);
+	padding-bottom: 30px;
+}
+
+.netflix-ui {
+	position: absolute !important;
+	left: 0;
+	top: 6%;
+	filter: brightness(95%);
+	padding: inherit;
+}
+
+.netflix-video {
+	position: absolute;
+	max-width: 90%;
+	left: 5%;
+	top: 6%;
+}
+
+.code-override {
+	color: #1a6ae0 !important;
+}
+
+.key{
+	color: rgb(22, 81, 190) !important;
+	margin-bottom: 50px;
+}
+
+.school {
+	padding-top: 40px;
+	background-color: rgb(22, 81, 190);
+	filter: brightness(75%);
+	color: whitesmoke;
+}
+
+.year {
+	color: whitesmoke!important;
+}
+
+.program {
+	padding: 40px 5px 5px 10px;
+}
+
+
+.row-div-ed {
+	box-shadow: 10px 10px 15px -6px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 10px 10px 15px -6px rgba(0,0,0,0.4);
+	margin-bottom: 30px;
+}
+
+.quote {
+	background-color: rgba(42, 45, 62, 0.918);
+	background-image: url(../images/code1.jpg);
+	background-blend-mode: multiply;
+	background-attachment: fixed;
+	background-position: center;
+	height: 55vh;
+	color: whitesmoke;
+}
+
+.quote-inner {
+	margin-top: 14% !important;
+}
+
+.form-control {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	background-color: transparent !important;
+	border-bottom: 1px solid #1a6ae0 !important;
+}
+
+.form-floating label {
+	color: rgba(255, 255, 255, 0.637) !important;
+}
+
+
+.fa-brands {
+	color: rgb(119, 119, 119) !important;
+	transition: color 0.2s ease-in-out;
+}
+
+.fa-brands:hover{
+	color: rgb(22, 81, 190) !important;
+}
+
+.bg-footer {
+	background-color: rgba(55, 55, 55, 0.86);
+	background-image: url(../images/maps.png);
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-footer * {
+	color: rgba(255, 255, 255, 0.637) !important;;
+}
+
+.bg-row-footer {
+	background-color: rgba(65, 65, 65, 0.886);
+	padding: 20px 0px;
+	margin-top: 30px !important;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px 15px -6px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 10px 10px 15px -6px rgba(0,0,0,0.4);
+}
+
+.bi-arrow-up-circle {
+	color: rgba(173, 173, 173, 0.712) !important;
+	transition: all 0.15s ease-in-out;
+}
+
+.bi-arrow-up-circle:hover{
+	color: rgb(19, 58, 132) !important;
+	font-size: 50px !important;
+}
+
+.animate__animated {
+	-webkit-animation-duration: 1.5s !important;
+  animation-duration: 1.5s !important;
+}
+
+@keyframes flash {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.flash-animation {
+	animation: flash 2s linear;
+	animation-delay: 1.5s;
+}
+
+.flash-animation-bottom {
+	animation: flash 3.5s linear infinite;
+	animation-delay: 1.5s;
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+	}
+	@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+} 
+
+.fadeInUp-animation {
+	animation: fadeIn 1.2s linear;
+	animation-delay: 800ms;
+}
+
+@media (max-width: 425px) {
+	.navbar-toggler {
+		background-color: hsla(219, 78%, 43%, 0.304) !important;
+		border: 1px solid hsl(219, 78%, 43%) !important;
+	}
+
+	.navbar a {
+		font-size: 1rem !important;
+	}
+
+	.carousel, .carousel-item img {
+		height: 55vh;
+		filter: brightness(50%) !important;
+	}
+
+	.quote-inner {
+		margin-top: 10rem !important;
+	}
+
+	.row-div h1, .row-div p{
+		text-align: center;
+	}
+
+	.btn-override {
+		width: 90% !important;
+	}
+	
+	.m-override {
+		transform: translateY(-3rem);
+	}
+}
+
+@media (max-width: 768px) {
+	.display-override {
+		font-size: 1.8rem !important;
+	}
+}

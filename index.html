@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <script src="https://kit.fontawesome.com/316449107e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav id="bgNavbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skillsSection">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolioSection">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experienceSection">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactSection">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/accountant.jpg" class="d-block w-100 img-blue-blend" alt="accountant">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-5 animate__animated animate__slideInLeft display-override">Hi There!<span class="blue">I'm Bernard</span></h5>
+          <p class="fs-4 text-muted fw-semibold">An Accountant.</p>
+          <a href=""><button type="button" class="btn btn-primary bg-transparent mt-4 fs-5 flash-animation">Download CV</button></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/educator.jpg" class="d-block w-100 img-blue-blend" alt="book stack">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-5 display-override">I also double as</h1>
+          <p class="fs-4 text-muted fw-semibold">An Educator.</p>
+          <button type="button" class="btn btn-primary bg-transparent mt-4 fs-5 flash-animation">Download CV</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/volunteer1.jpg" class="d-block w-100" alt="volunteer">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-5 display-override">Sometimes tripling as</h1>
+          <p class="fs-4 text-muted fw-semibold">A Volunteer</p>
+          <button type="button" class="btn btn-primary bg-transparent mt-4 fs-5 flash-animation">Download CV</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/code1.jpg" class="d-block w-100" alt="code">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-5 display-override">and finally, following my 
+            <span class="blue">passion</span>
+          </h1>
+          <p class="fs-4 text-muted fw-semibold">As a Tech Student.</p>
+          <button type="button" class="btn btn-primary bg-transparent mt-4 fs-5 flash-animation">Download CV</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="about-section" id="aboutSection">
+    <div class="container divider bridge">
+      <h1 class="display-6 fw-semibold fs-3 text-center key">About Me</h1>
+      <div class="about-container">
+              <p class="text-center">As an accountant, I help businesses with bookkeeping and accounts issues. As a teacher, I educate elementary 
+                students to achieve the best results in their academic life and to some extent, their personal upbringing. As a volunteer, I do my bit in realizing the SDG goal on Climate Change by engaging in activities such as education on 
+                plastic waste management within local communities in Accra, Ghana. As a tech student I focus on learning the skills required to be a full-stack developer. I also run <a href="#" style="text-decoration: none;" class="text-muted fw-semibold">Prime Legend Cleaning Hub,</a> a cleaning service that 
+                provides housekeeping, upholstery & carpet cleaning as well as car interior cleaning services.
+              </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills-section" id="skillsSection">
+    <div class="container divider bridge">
+      <h1 class="display-6 text-center row-div key fw-semibold fs-3">Skills</h1>
+      <div class="row row-div">
+        <div class="col-md-2 offset-md-1 text-center">
+          <picture>
+            <img src="images/acces-code.png" width="60" alt="bookkeeping">
+          </picture>
+          <h1 class="fs-6 mb-5 mt-2">SHELL</h1>
+        </div>
+        <div class="col-md-4 offset-md-1 text-center">
+          <picture>
+            <img src="images/git.png" width="60" alt="GIT">
+          </picture>
+          <h1 class="fs-6 mb-5 mt-2">GIT</h1>
+        </div>
+        <div class="col-md-2 offset-md-1 text-center">
+          <picture>
+            <img src="images/html.png" width="60" alt="HTML">
+          </picture>
+          <h1 class="fs-6 mb-5 mt-2">HTML</h1>
+        </div>
+      </div>
+      <div class="row row-div m-override">
+        <div class="col-md-2 offset-md-1 text-center">
+          <picture>
+            <img src="images/css-3.png" width="60" alt="CSS">
+          </picture>
+          <h1 class="fs-6 mb-5 mt-2">CSS</h1>
+        </div>
+        <div class="col-md-4 offset-md-1 text-center">
+          <picture>
+            <img src="images/bootstrap.png" width="60" alt="bootstrap">
+          </picture>
+          <h1 class="fs-6 mb-5  mt-2">BOOTSTRAP</h1>
+        </div>
+        <div class="col-md-2 offset-md-1 text-center">
+          <picture>
+            <img src="images/javascript-logo.png" width="60" alt="Javascript">
+          </picture>
+          <h1 class="fs-6 mb-5  mt-2">JAVASCRIPT</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="quote">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 mx-auto quote-inner">
+          <h1 class="display-6 text-center fw-semibold">If you want to go fast go alone, If you want to go far go together</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="portfolio-section" id="portfolioSection">
+    <div class="container divider bridge">
+      <h1 class="display-6 text-center row-div key fw-semibold fs-3">Recent Projects</h1>
+      <div class="row project-row">
+        <div class="col-md-4 offset-md-1 row-div text-container mt-5">
+          <h1 class="display-6 fs-3 fw-normal mb-3 text-muted">Netflix Landing Page UI Clone</h1>
+          <p><code class="code-override">I worked on the Netflix Landing Page as a practice project while learning <span class="fw-bold">Bootstrap 5</span>. Although bootstrap does not give total control over the css, I learned how to properly use the inspect tool in identifying and overriding predefined bootstrap class names to gain the control I needed. I also understood principles such as offsetting and the bootstrap grid system better through this project.</code></p>
+        </div>
+        <div class="col-md-5 offset-md-1 row-div project-gallery">
+            <img src="images/monitor.png" class="img-fluid monitor-ui" alt="monitor">
+            <video class="netflix-video" src="images/Netflix video.mp4" autoplay playinline muted loop class="netflix-video">
+            </video>
+        </div>
+      </div>
+      <div class="row project-row flex-row-reverse">
+        <div class="col-md-5 offset-md-2 row-div text-container mt-5">
+          <h1 class="display-6 fs-3 fw-normal mb-3 text-muted">Technical Documentation Page</h1>
+          <p><code class="code-override">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque minima velit ipsam veniam molestiae. Adipisci ea accusamus, ab, aperiam cumque pariatur natus unde dolorem eum eaque error, corrupti ipsa atque?</code></p>
+        </div>
+        <div class="col-md-5 row-div project-gallery">
+          <img src="images/monitor.png" class="img-fluid monitor-ui" alt="monitor">
+          <img src="images/technical documentation css.png" class="img-fluid netflix-ui" alt="netflix clone">
+        </div>
+      </div>
+      <div class="row project-row">
+        <div class="col-md-4 offset-md-1 row-div text-container mt-5">
+          <h1 class="display-6 fs-3 fw-normal mb-3 text-muted">Calculator UI</h1>
+          <p><code class="code-override">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque minima velit ipsam veniam molestiae. Adipisci ea accusamus, ab, aperiam cumque pariatur natus unde dolorem eum eaque error, corrupti ipsa atque?</code></p>
+        </div>
+        <div class="col-md-5 offset-md-2 row-div project-gallery">
+          <img src="images/monitor.png" class="img-fluid monitor-ui" alt="monitor">
+          <img src="images/calculator UI bootstrap.png" class="img-fluid netflix-ui" alt="netflix clone">
+        </div>
+      <a href="https://github.com/boypaida12" class="btn btn-primary fs-5 mx-auto btn-override">See More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience-section" id="experienceSection">
+    <div class="container divider bridge">
+      <h1 class="display-6 text-center key fw-semibold fs-3">Experience</h1>
+      <div class="row row-div">
+        <div class="col-md-3 offset-md-1 row-div">
+          <h1 class="display-6 fs-4 fw-bold">Work</h1>
+        </div>
+        <div class="col-md-7">
+          <h1 class="display-6 fs-3 fw-light fw-normal">The Street Codes</h1>
+          <h1 class="display-6 fs-5">Tutor</h1>
+          <li class="fw-semibold text-muted">2023 - Present</li>
+          <p>Ensure the gradual transformation of street internet cafes into tech hubs for the youth in the streets to acquire relevant software skills</p>
+          <ul class="text-muted ul-color">
+            <span class="fs-5">Key Contributions</span>
+            <li>Overhaul the curriculum and standerdized content and delivery
+              <ul>
+                <li>Organize learning phases for basic computing skills and software for programming</li>
+                <li>Develop part-time learning phase for digital skills</li>
+              </ul>
+            </li>
+            <li>Provide training for all instructors focusing on creating an inclusive and engaging learning environment</li>
+            <li>Create and maintain website</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row row-div">
+        <div class="col-md-7 offset-md-4">
+          <h1 class="display-6 fs-3 fw-light fw-normal">Freelance</h1>
+          <h1 class="display-6 fs-5">Full-Stack Developer & Educator</h1>
+          <li class="fw-semibold text-muted">2022 - Present</li>
+          <p>Provide various front and back-end related services, ranging from web design, mobile app development, database, organizing workshops etc.</p>
+        </div>
+      </div>
+      <div class="row row-div">
+        <div class="col-md-7 offset-md-4">
+          <h1 class="display-6 fs-3 fw-light fw-normal">Green Legend Volunteers</h1>
+          <h1 class="display-6 fs-5">Lead, Green Kids Initiative</h1>
+          <li class="fw-semibold text-muted">2022 - Present</li>
+          <p>Provide education to the public, targeting schools on the link between Climate Change and proper waste management practices</p>
+          <ul class="text-muted ul-color">
+            <span class="fs-5">Key Contributions</span>
+            <li>Pioneered the Green Kids Initiative</li>
+            <li>Create and maintain website</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row row-div">
+        <div class="col-md-3 offset-md-1 row-div">
+          <h1 class="display-6 fs-4 fw-bold">Education</h1>
+        </div>
+        <div class="col-md-7">
+          <div class="row row-div-ed">
+            <div class="col-md-4 text-center school">
+              <h1 class="display-6 fs-5">Codetrain Africa</h1>
+              <p class="fs-6 year">2022-2023</p>
+            </div>
+            <div class="col-md-8 program">
+              <h1 class="display-6 fs-5 fw-semibold">FULL STACK WEB AND MOBILE APP DEVELOPMENT</h1>
+              <p class="text-muted fs-6 fw-semibold">1-year intensive Web Design (HTML, CSS, Bootstrap, Javascript, REACT) and UI/UX (Figma & Flutter)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 offset-md-4">
+          <div class="row row-div-ed">
+            <div class="col-md-4 text-center school">
+              <h1 class="display-6 fs-5">Freecodecamp.org</h1>
+              <p class="fs-6 year">2021</p>
+            </div>
+            <div class="col-md-8 program fw-semibold">
+              <h1 class="display-6 fs-5 fw-semibold">RESPONSIVE WEB DESIGN</h1>
+              <p class="text-muted fs-6">HTML AND CSS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 offset-md-4">
+          <div class="row row-div-ed">
+            <div class="col-md-4 text-center school">
+              <h1 class="display-6 fs-5">University of Professional Studies, Accra</h1>
+              <p class="fs-6 year">2015-2019</p>
+            </div>
+            <div class="col-md-8 program">
+              <h1 class="display-6 fs-5 fw-semibold">BSc. ACCOUNTING</h1>
+              <p class="text-muted fs-6 fw-semibold">Financial Management, Corporate Reporting, Taxation, Financial Accounting</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="quote">
+    <div class="container">
+      <div class="row">
+        <div class="col-md quote-inner text-center">
+          <h1 class="display-6 m-auto fw-semibold w-75">Patience and Practice will get you wherever you want to get to on your journey</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="contact-section" id="contactSection">
+    <div class="container-fluid divider bridge bg-footer position-relative">
+      <div class="row">
+        <div class="col-md-4 offset-md-3 bg-row-footer">
+          <form action="https://formspree.io/f/mqkoaebj" method="POST">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="your name" name="name" required>
+              <label for="floatingInput" class="text-muted  fw-light"><i class="fa-regular fa-circle-user mx-2"></i> Your name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="Email" name="email" required>
+              <label for="floatingInput" class="text-muted fw-light"><i class="fa-regular fa-envelope mx-2"></i>Your email address</label>
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="message"></textarea required>
+              <label for="floatingTextarea" class="text-muted fw-light"><i class="fa-regular fa-file-lines mx-2"></i>Comments</label>
+            </div>
+            <button type="submit" class="btn btn-primary bg-transparent mt-4">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-2 bg-row-footer">
+          <p class="text-primary opacity-75 fs-4">Socials</p>
+          <p><a href="#" target="_blank"><i class="fa-brands fa-facebook mx-4 fs-3 mb-3"></i></a></p>
+          <p><a href="https://github.com/boypaida12" target="_blank"><i class="fa-brands fa-github mx-4 fs-3 mb-3"></i></a></p>
+          <p><a href="#" target="_blank"><i class="fa-brands fa-linkedin mx-4 fs-3 mb-3"></i></a></p>
+          <p><a href="#" target="_blank"><i class="fa-brands fa-twitter mx-4 fs-3 mb-3"></i></a></p>
+        </div>
+      </div>
+      <div class="position-absolute bottom-0 end-0 mx-3">
+        <a href="#"><i class="bi bi-arrow-up-circle fs-1 flash-animation-bottom" id="backToTop"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    const navEl = document.querySelector('.navbar');
+    console.log(scrollY);
+    window.addEventListener('scroll', () =>  {
+      if (window.scrollY >= 200) {
+        navEl.classList.add('navbar-scrolled');
+      } else if (window.screenY < 200) {
+        navEl.classList.remove('navbar-scrolled');
+      }
+    });
+  </script>
+
+
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
