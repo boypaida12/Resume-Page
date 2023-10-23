@@ -293,7 +293,7 @@ body {
 
 	.carousel, .carousel-item img {
 		height: 55vh;
-		filter: brightness(50%) !important;
+		filter: brightness(80%) !important;
 	}
 
 	.quote-inner {
